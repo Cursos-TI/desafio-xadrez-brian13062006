@@ -4,7 +4,8 @@
 int main() {
 
     int t = 0, b = 0, r;
-    // Cada variável recebe a inícial de seu nome ou seja: t = "Torre", b = "Bispo" e r = Rainha
+    int c = 1;
+    // Cada variável recebe a inícial de seu nome ou seja: t = "Torre", b = "Bispo", r = "Rainha" e c = "Cavalo". 
 
     printf("Peça: Torre\n");
    
@@ -25,6 +26,18 @@ int main() {
 
     for(r = 0; r < 8; r++) {
         printf("Esquerda\n");
+    }
+
+
+    //Movimento Cavalo
+    printf("\nPeça: Cavalo\n");
+
+    while (c--)
+    {
+        for (int c = 0; c < 2; c++) {
+            printf("Baixo, ");
+        }
+        printf("Direita\n");
     }
     
     return 0;
