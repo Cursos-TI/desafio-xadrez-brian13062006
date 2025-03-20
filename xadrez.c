@@ -4,6 +4,7 @@
 int main() {
 
     int t = 0, b = 0, r;
+    // Cada variável recebe a inícial de seu nome ou seja: t = "Torre", b = "Bispo" e r = Rainha
 
     printf("Peça: Torre\n");
    
