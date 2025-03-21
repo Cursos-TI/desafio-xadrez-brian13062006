@@ -10,6 +10,7 @@ void moverTorre(int casast) {
     }
 }
 
+// Movimento do Bispo
 void moverBispo(int casasb) {
     if (casasb > 0) {
         printf("Cima, Direita\n");
